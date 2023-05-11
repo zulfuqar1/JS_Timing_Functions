@@ -1,0 +1,40 @@
+.main_body
+{
+  display: flex;
+  justify-content: center;
+}
+
+.traffic_light {
+    width: 100px;
+    height: 280px;
+    background-color: #333;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  .red_light {
+    background-color: black;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    transition: background 500ms;
+  }
+  
+  .yellow_light {
+    background-color: black;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    transition: background 500ms;
+  }
+  
+  .green_light {
+    background-color: black;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    transition: background 500ms;
+  }
